@@ -1,0 +1,9 @@
+#Wed, 18 Aug 2021 12:29:07 +0300
+#build version number file
+
+version=8
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=96
+
+content_revision=2
