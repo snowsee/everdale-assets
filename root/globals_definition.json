@@ -1,0 +1,14 @@
+{
+  "Village2": {
+    "description": "Parameters for village2",
+    "parameters": {
+      "TownHallMaxLevel": { "type": "number", "min": 0, "max": 8 }
+    }
+  },
+  "KillSwitches": {
+    "description": "Various kill switches",
+    "parameters": {
+      "Boombox": { "type": "boolean" }
+    }
+  }
+}

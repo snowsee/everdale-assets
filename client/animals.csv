@@ -1,0 +1,10 @@
+"Name","GfxData","Scale","Speed","Behaviour","RandomSpawn","RandomSpawnMinVillageLevel","MaxDistFromHome","MinDistFromCurrPos","DeltaFromCurrPos","Idletime","RunSpeedMultiplier","RotateSlowness","RotateSlownessRun","MovementsUntilChangeHomeMin","MovementsUntilChangeHomeMax","TouchEffect"
+"String","String","int","int","String","boolean","int","int","int","int","int","int","int","int","int","int","String"
+"Chicken","animal_chicken",90,5,"Chicken","false",,500,150,450,7500,300,150,10,5,10,"Tap_chicken"
+"Birddog","spirit_birddog",120,10,"Spirit","true",1,750,350,450,5000,250,150,50,5,10,"Tap_generic"
+"Earpuff","spirit_earpuff",70,5,"Spirit","true",2,500,150,450,5000,500,150,25,5,10,"Tap_generic"
+"Doe","animal_doe",70,5,"Spirit","true",1,750,150,450,5000,500,150,50,5,10,"Tap_generic"
+"Bunny","animal_bunny",70,5,"Spirit","true",1,350,150,450,5000,250,150,50,5,10,"Tap_bunny"
+"Dog","animal_dog",80,7,"Chicken","false",,500,150,450,5000,250,200,100,5,10,
+"bird_ground","animal_chicken",90,5,"Spirit","false",,750,150,450,5000,250,150,50,5,10,"Tap_chicken"
+"Boar","animal_boar",100,7,"Spirit","true",,350,150,450,5000,250,200,100,5,10,

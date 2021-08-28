@@ -1,0 +1,12 @@
+"Name","ParameterType","ParameterName","Description","Public"
+"String","String","String","String","Boolean"
+"OpenShop",,,"Open the shop","TRUE"
+"OpenShopBillingPackage","BillingPackage","package","Open the shop and show the billing package","TRUE"
+"OpenShopOffer","Offer","offer","Open the shop and show the offer","TRUE"
+"OpenWeb","String","url","Open default browser and go to address","FALSE"
+,,"url2","If address cannot be opened i.e. clashroyale:// then the following urls are tested.",
+,,"url3",,
+"redeem","String","token","This is used for redeeming reward. i.e. 12 trairs survey.","TRUE"
+"OpenFAQ","String","id","Open helpshift FAQ article","TRUE"
+"ContactSupport",,,"Open helpshift customer support","TRUE"
+"OpenSelfHelp","String","article","Opens self help. Optional id of article. i.e. article=announcement","TRUE"

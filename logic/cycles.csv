@@ -1,0 +1,19 @@
+"Name","Intervals","Obstacles","Workers","Challenges","Boats","Quests","ContentLimit","RandomizeIntervalStart","RandomizeContentStart","RandomizeDirection","RandomizeEachCycle"
+"String","int","String","String","String","String","String","int","boolean","boolean","boolean","boolean"
+"FreeBerries",7543,"BerryClump",,,,,60,"TRUE","TRUE","TRUE","TRUE"
+,7530,"BerryClump",,,,,,,,,
+"FreeTrees",2922,"TreeClump_small2",,,,,450,"TRUE",,"TRUE","TRUE"
+,2432,"TreeClump_small",,,,,,,,,
+,2843,"TreeClump_small3",,,,,,,,,
+,2574,"TreeClump_small2",,,,,,,,,
+,2963,"TreeClump_medium",,,,,,,,,
+"FreeClay",71235,"LargeClay1",,,,,20,"TRUE",,"TRUE","TRUE"
+,78054,"SmallClay1",,,,,,,,,
+"FreeStone",82064,"Large Stone",,,,,20,"TRUE",,"TRUE","TRUE"
+,80054,"Small Stone 1",,,,,,,,,
+"Quests",604800,,,,,"BirddogCarrots",1,"TRUE","TRUE","TRUE","TRUE"
+"FreeMushrooms",3145,"Mushrooms",,,,,60,"TRUE","TRUE","TRUE","TRUE"
+,3277,"Mushrooms",,,,,,,,,
+,3131,"Mushrooms",,,,,,,,,
+,3097,"Mushrooms",,,,,,,,,
+,2943,"Mushrooms",,,,,,,,,

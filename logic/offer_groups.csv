@@ -1,0 +1,14 @@
+"Name","TID","TID_Info","Enabled","ShopOrder","ShuffleOffers","HeaderMovieClip","HeaderFrameLabel","ForceHeaderVisible","ShowTimer","ContainerMovieClip","TimerTID","TimerUnpurchasedTID","DefaultBillingPackageGroup"
+"String","String","String","boolean","int","boolean","String","String","boolean","String","String","String","String","boolean"
+"DailyOffers","TID_SHOP_DAILY_SELECTION",,"true",2,"true","sc/ui.sc#shop_list_item_container_timer","deals",,"Always",,"TID_SHOP_REFRESH_TIMER",,
+"BasicResources","TID_SHOP_FIXED_RESOURCES_SECTION",,"true",5,"false","sc/ui.sc#shop_list_item_container_timer","generic",,"OnlyWhenPurchased",,"TID_SHOP_TIMER_STOCK_REFILL","TID_SHOP_RESOURCE_FILL_INFO",
+"ValueDecos","TID_SHOP_DAILY_DECORATIONS_SECTION",,"true",10,"false","sc/ui.sc#shop_list_item_container_subcategory_timer","decos",,"Always",,"TID_SHOP_REFRESH_TIMER",,
+"ValleyOffers","TID_SHOP_VALLEY_OFFERS_SECTION",,"true",3,"false","sc/ui.sc#shop_list_item_container","generic",,"Never",,,,
+"RentAWorker","TID_SHOP_RENT_A_WORKER_SECTION",,"true",6,"false","sc/ui.sc#shop_list_item_container","worker",,"Never",,,,
+"WorkerSkin","TID_SHOP_SKINS_SECTION",,"true",8,"true","sc/ui.sc#shop_list_item_container_timer","skins",,"Always",,"TID_SHOP_REFRESH_TIMER",,
+"StarterPack","TID_SHOP_STARTER_PACK_SECTION",,"true",1,"false",,,,"Never",,,,
+"DecosPermanent","TID_SHOP_PERMANENT_DECORATIONS_SECTION",,"TRUE",12,"FALSE","sc/ui.sc#shop_list_item_container_subcategory","decos",,"Never",,,,
+"DecosMain","TID_SHOP_DECORATIONS_SECTION",,"TRUE",9,"false","sc/ui.sc#shop_list_item_container","decos","TRUE","Never",,,,
+"Potions","TID_SHOP_POTIONS_SECTION",,"true",7,"false","sc/ui.sc#shop_list_item_container_timer","generic",,"Always",,"TID_SHOP_REFRESH_TIMER",,
+"Pets","TID_SHOP_PETS_SECTION",,"TRUE",11,"FALSE","sc/ui.sc#shop_list_item_container_subcategory","decos",,"Never",,,,
+"Gems","TID_SHOP_DIAMONDS_SECTION",,TRUE,13,FALSE,"sc/ui.sc#shop_list_item_container","generic",,"Never",,,,TRUE

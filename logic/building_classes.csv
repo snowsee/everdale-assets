@@ -1,0 +1,18 @@
+"Name","TID","CanBuy","ShopCategoryResource","ShopCategoryArmy","ShopCategoryDefense","Decoration"
+"String","String","boolean","boolean","boolean","boolean","boolean"
+"Resource","TID_BUILDING_CLASS_RESOURCE","TRUE","TRUE",,,
+"Army","TID_BUILDING_CLASS_ARMY","TRUE",,"TRUE",,
+"Defense","TID_BUILDING_CLASS_DEFENSE","TRUE",,,"TRUE",
+"Town Hall",,"FALSE",,,,
+"Wall",,"FALSE",,,,
+"Worker",,"TRUE","TRUE",,,
+"Npc",,"FALSE",,,,
+"Specialized",,"FALSE",,,,
+"Town Hall2",,"FALSE",,,,
+"Worker2",,"FALSE","TRUE",,,
+"Road","TID_BUILDING_CLASS_ROAD","FALSE","TRUE",,,
+"Discoverable",,"FALSE",,,,
+"Guild","TID_BUILDING_CLASS_ACADEMY","FALSE",,,,
+"ChallengeSite","TID_BUILDING_CLASS_CHALLENGE_SITE","FALSE",,,,
+"BoatSite",,"FALSE",,,,
+"Decoration",,"TRUE",,,,"TRUE"

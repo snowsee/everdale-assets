@@ -1,0 +1,12 @@
+"Name","Level1Prob","Level2Prob","Level3Prob","Level4Prob","Level5Prob","Level6Prob","Level7Prob","Level8Prob","Level9Prob","Level10Prob"
+"String","int","int","int","int","int","int","int","int","int","int"
+"ToolTech1",100,0,0,0,0,0,0,0,0,0
+"ToolTech2",50,50,0,0,0,0,0,0,0,0
+"ToolTech3",34,33,33,0,0,0,0,0,0,0
+"ToolTech4",25,25,25,25,0,0,0,0,0,0
+"ToolTech5",20,20,20,20,20,0,0,0,0,0
+"ToolTech6",0,0,0,0,0,100,0,0,0,0
+"ToolTech7",0,0,0,0,0,0,100,0,0,0
+"ToolTech8",0,0,0,0,0,0,0,100,0,0
+"ToolTech9",0,0,0,0,0,0,0,0,100,0
+"ToolTech10",0,0,0,0,0,0,0,0,0,100

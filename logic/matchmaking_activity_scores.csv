@@ -1,0 +1,13 @@
+"number of players in valley","0 active players",1 active players,"2 active players","3 active players","4 active players","5 active players","6 active players","7 active players","8 active players","9 active players","10 active players"
+"int","int","int","int","int","int","int","int","int","int","int","int"
+0,0,,,,,,,,,,
+1,0,8,,,,,,,,,
+2,0,8,11,,,,,,,,
+3,0,7,10,13,,,,,,,
+4,0,7,10,12,14,,,,,,
+5,0,6,9,12,14,15,,,,,
+6,0,6,9,11,13,15,16,,,,
+7,0,5,8,11,13,14,15,16,,,
+8,0,5,8,10,12,14,15,15,15,,
+9,0,4,7,10,12,13,14,15,15,14,
+10,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,2 @@
+Name,ItemSWF,ItemExportName,UpcomingItemExportName,LoadSWF,TitleTID,InfoTID,UpcomingTitleTID,IconSWF,IconExportName,ButtonTID,ButtonAction,ButtonActionData,Button2TID,Button2Action,Button2ActionData,ButtonLanguage
+String,String,String,String,Boolean,String,String,String,String,String,String,String,String,String,String,String,String

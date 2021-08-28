@@ -1,0 +1,584 @@
+
+{
+	"Village Lighting": 
+	{
+		"Shadow Color": 
+		{
+			"x": 0.674509823,
+			"y": 0.552941203,
+			"z": 0.964705884
+		},
+		"Light Bias": 0.101000004,
+		"Light Bias2": 0.500000000,
+		"Light Angle": 41.087001801,
+		"Light Yaw": 18.586999893,
+		"Shadow Smoothing": 1.417999983,
+		"Shadow Edge Sharpness": 2.168999910,
+		"Shadow Poly Offset Factor": 2.000000000,
+		"Shadow Poly Offset Units": 75.026000977,
+		"Shadow Map Size": 1024,
+		"Color Gamma": 
+		{
+			"x": 100.000000000,
+			"y": 90.000000000,
+			"z": 95.000000000
+		},
+		"Color Brightness": 
+		{
+			"x": 104.000000000,
+			"y": 104.000000000,
+			"z": 104.000000000
+		},
+		"Rimlight Color": 
+		{
+			"x": 0.273806036,
+			"y": 0.602239966,
+			"z": 0.836298943
+		},
+		"Rimlight Ramp Power": 670.057983398,
+		"Rimlight Ramp Bias": 28.982999802,
+		"Rimlight Angle": 63.916000366,
+		"Rimlight Yaw": -41.000000000,
+		"Shadow Volume Portrait": 
+		{
+			"Rotate": -3.476000071,
+			"Bound 1": 1.166000009,
+			"Bound 2": 0.852999985,
+			"Bound 3": 0.451999992,
+			"Bound 4": 0.794000030,
+			"Bound 5": 0.758000016,
+			"Bound 6": 0.263000011
+		},
+		"Shadow Volume Landscape": 
+		{
+			"Rotate": -5.794000149,
+			"Bound 1": 0.538999975,
+			"Bound 2": 0.518999994,
+			"Bound 3": 0.694000006,
+			"Bound 4": 0.838000000,
+			"Bound 5": 0.838000000,
+			"Bound 6": 0.745000005
+		}
+	},
+	"Valley Lighting": 
+	{
+		"Shadow Color": 
+		{
+			"x": 0.513012767,
+			"y": 0.757953882,
+			"z": 0.879003584
+		},
+		"Light Bias": 0.570999980,
+		"Light Bias2": -0.194999993,
+		"Light Angle": 45.659000397,
+		"Light Yaw": 38.415000916,
+		"Shadow Smoothing": 3.878000021,
+		"Shadow Edge Sharpness": 10.000000000,
+		"Shadow Poly Offset Factor": 2.000000000,
+		"Shadow Map Size": 512,
+		"Color Gamma": 
+		{
+			"x": 100.000000000,
+			"y": 90.000000000,
+			"z": 95.000000000
+		},
+		"Color Brightness": 
+		{
+			"x": 121.142997742,
+			"y": 166.856994629,
+			"z": 104.000000000
+		},
+		"Rimlight Color": 
+		{
+			"x": 0.000001000,
+			"y": 0.000001000,
+			"z": 0.000001000
+		},
+		"Rimlight Ramp Power": 100.000000000,
+		"Rimlight Ramp Bias": -100.000000000,
+		"Rimlight Yaw": 200.000000000,
+		"Shadow Volume Portrait": 
+		{
+			"Rotate": -20.086000443,
+			"Bound 1": 1.355999947,
+			"Bound 2": 1.194000006,
+			"Bound 3": 0.694000006,
+			"Bound 4": 0.718999982,
+			"Bound 5": 2.500000000,
+			"Bound 6": 0.591000021
+		},
+		"Shadow Volume Landscape": 
+		{
+			"Rotate": -19.212999344,
+			"Bound 1": 0.851999998,
+			"Bound 2": 0.451000005,
+			"Bound 3": 0.825999975,
+			"Bound 4": 0.810999990,
+			"Bound 5": 3.500000000,
+			"Bound 6": 0.787000000
+		}
+	},
+	"Portrait Lighting": 
+	{
+		"Shadow Color": 
+		{
+			"x": 0.691383839,
+			"y": 0.678176701,
+			"z": 0.828431368
+		},
+		"Light Bias": 0.064000003,
+		"Light Angle": 99.677001953,
+		"Light Yaw": 36.735000610,
+		"Shadow Smoothing": 6.204999924,
+		"Shadow Edge Sharpness": 2.316999912,
+		"Shadow Poly Offset Factor": 9.178999901,
+		"Shadow Poly Offset Units": 146.190002441,
+		"Shadow Map Size": 512,
+		"Color Gamma": 
+		{
+			"x": 100.000000000,
+			"y": 75.000000000,
+			"z": 85.000000000
+		},
+		"Color Brightness": 
+		{
+			"x": 105.000000000,
+			"y": 105.000000000,
+			"z": 105.000000000
+		},
+		"Rimlight Color": 
+		{
+			"x": 0.305353224,
+			"y": 0.407080412,
+			"z": 0.501779318
+		},
+		"Rimlight Ramp Power": 290.019012451,
+		"Rimlight Ramp Bias": -4.414999962,
+		"Rimlight Yaw": -38.000000000,
+		"Shadow Volume Portrait": 
+		{
+			"Rotate": -107374176.000000000,
+			"Bound 1": -107374176.000000000,
+			"Bound 2": -107374176.000000000,
+			"Bound 3": -107374176.000000000,
+			"Bound 4": -107374176.000000000,
+			"Bound 5": -107374176.000000000,
+			"Bound 6": -107374176.000000000
+		},
+		"Shadow Volume Landscape": 
+		{
+			"Rotate": -6.179999828,
+			"Bound 1": 0.713000000,
+			"Bound 2": 0.726999998,
+			"Bound 3": 0.707000017,
+			"Bound 4": 0.703000009,
+			"Bound 5": 0.711000025,
+			"Bound 6": 0.717999995
+		}
+	},
+	"Global Lighting Camera Zoom NEAR": 10.000000000,
+	"Global Lighting Camera Zoom FAR": 50.000000000,
+	"Global Lighting FAR": 
+	{
+		"Cloud Shadow Map": "sc3d\/env_cloud_shadow.pvr",
+		"Cloud Shadow Intensity": 59.203998566,
+		"Cloud Shadow Scale": 334.591003418,
+		"Cloud Shadow Dir": 90.000000000,
+		"Cloud Shadow Speed": 18.000000000,
+		"Terrain UV Scale": 0.159999996
+	},
+	"Global Lighting NEAR": 
+	{
+		"Cloud Shadow Map": "sc3d\/env_cloud_shadow.pvr",
+		"Cloud Shadow Intensity": 34.762001038,
+		"Cloud Shadow Scale": 20.518999100,
+		"Cloud Shadow Dir": 90.000000000,
+		"Cloud Shadow Speed": 16.000000000,
+		"Terrain UV Scale": 0.071999997
+	},
+	"Force Dynamic Light for Characters": true,
+	"Character shadow intensity": 1.000000000,
+	"Lod 2 Zoom Threshold": 15.000000000,
+	"Lod 3 Zoom Threshold": 30.000000000,
+	"Extra Margin": 15.000000000,
+	"Start Scale Zoom": 400,
+	"End Scale Zoom": 700,
+	"Building Lod Scale": 150,
+	"Obstacle Lod Scale": 180,
+	"Village Lod Scale": 115,
+	"Village Base Scale": 100,
+	"Tree LOD Cluster Size": 3,
+	"Tree LOD Intensity": 40,
+	"Tree LOD Scale": 4.500000000,
+	"Tree LOD Jitter": 3.000000000,
+	"Tree LOD Threshold": 30,
+	"Worker Colorization": 
+	[
+		{
+			"Colorize": 
+			{
+				"x": 0.975490212,
+				"y": 0.717272222
+			},
+			"Emission": 
+			{
+				"x": 0.338235319,
+				"y": 0.143662229,
+				"z": 0.023212217
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.328719735,
+				"y": 0.700946510,
+				"z": 0.931372523
+			},
+			"Emission": 
+			{
+				"x": 0.017709538,
+				"y": 0.055071242,
+				"z": 0.328431368
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.774509788,
+				"y": 0.269671589,
+				"z": 0.254373312
+			},
+			"Emission": 
+			{
+				"x": 0.299019635,
+				"y": 0.065140903,
+				"z": 0.042507686
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.315503657,
+				"y": 0.422768235,
+				"z": 0.495098054
+			},
+			"Emission": 
+			{
+				"x": 0.068627477,
+				"y": 0.049788564,
+				"z": 0.067771226
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.721382380,
+				"y": 0.358948499,
+				"z": 0.950980365
+			},
+			"Emission": 
+			{
+				"x": 0.064590536,
+				"y": 0.067318968,
+				"z": 0.156862736
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.838235259,
+				"y": 0.456098735,
+				"z": 0.073961958
+			},
+			"Emission": 
+			{
+				"x": 0.254901946,
+				"y": 0.055346299,
+				"z": 0.028738948
+			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.074123032,
+				"y": 0.676470578,
+				"z": 0.036476362
+			},
+			"Emission": 
+			{
+				"x": 0.012973642,
+				"y": 0.142156839,
+				"z": 0.009059012
+			}
+		}
+	],
+	"Unreachable Area Shading": 
+	{
+		"x": 0.000001000,
+		"y": 0.000001000,
+		"z": 0.000001000
+	},
+	"Valley Camera Pan Limit Left": 2200.000000000,
+	"Valley Camera Pan Limit Right": 3750.000000000,
+	"Valley Camera Pan Limit Top": 2800.000000000,
+	"Valley Camera Pan Limit Bottom": 3500.000000000,
+	"Building Camera Distance": 1.399999976,
+	"Building Camera Far Plane": 5700.000000000,
+	"Building Camera Near Plane Multiplier": 0.899999976,
+	"Valley Root Scale": 0.152999997,
+	"Worker Scale": 37.305999756,
+	"Water": 
+	{
+		"Color": 
+		{
+			"x": 0.010296212,
+			"y": 0.587519705,
+			"z": 0.964412808
+		},
+		"Color Reflection": 
+		{
+			"x": 0.192246810,
+			"y": 0.450937301,
+			"z": 0.818505347
+		},
+		"Spec Intensity": 62.700000763,
+		"Spec Power": 708.994995117,
+		"R0": 0.100000001,
+		"Wave 0 Scale": 1.411999941,
+		"Wave 0 Intensity": 3.561000109,
+		"Wave 1 Scale": 2.673000097,
+		"Wave 1 Intensity": -5.000000000,
+		"Wave 2 Scale": -3.845000029,
+		"Wave 2 Intensity": -4.609000206,
+		"Wave Speed": 0.479999989,
+		"River Wave 0 Scale": 0.178000003,
+		"River Wave 0 Intensity": 0.488000005,
+		"River Wave 0 Speed": 0.503000021,
+		"River Wave 1 Scale": 0.957000017,
+		"River Wave 1 Intensity": 1.000000000,
+		"River Wave 1 Speed": 0.224999994,
+		"m_foamColor": 
+		{
+			"r": 0.622775793,
+			"g": 0.898964107,
+			"b": 1.000000000,
+			"a": 1.000000000
+		},
+		"m_foamBaseMul": 1.115000010,
+		"m_foamWaveOffset": 2.141999960,
+		"m_foamWaveIntensity": 0.638000011,
+		"m_foamWaveSpeed": 1.684000015,
+		"m_foamDistortIntensity": 0.173999995,
+		"m_foamFadePow": 3.993000031,
+		"m_foamRampBias": 0.294999987
+	},
+	"River": 
+	{
+		"Color": 
+		{
+			"y": 0.519573212,
+			"z": 1.000000000
+		},
+		"Color Reflection": 
+		{
+			"x": 0.148123756,
+			"y": 0.574129879,
+			"z": 0.967971504
+		},
+		"Spec Intensity": 25.396999359,
+		"Spec Power": 241.500000000,
+		"R0": 0.068999998,
+		"Wave 0 Scale": 0.337000012,
+		"Wave 0 Intensity": 1.572999954,
+		"Wave 1 Scale": 0.365000010,
+		"Wave 1 Intensity": -5.000000000,
+		"Wave 2 Scale": 3.230000019,
+		"Wave 2 Intensity": 3.315000057,
+		"Wave Speed": 1.000000000,
+		"River Wave 0 Scale": 0.439999998,
+		"River Wave 0 Intensity": 0.598999977,
+		"River Wave 0 Speed": 0.435000002,
+		"River Wave 1 Scale": 0.158000007,
+		"River Wave 1 Intensity": 0.563000023,
+		"River Wave 1 Speed": 0.409000009,
+		"m_foamColor": 
+		{
+			"r": 0.526690364,
+			"g": 0.819694161,
+			"b": 1.000000000,
+			"a": 1.000000000
+		},
+		"m_foamBaseMul": 2.000000000,
+		"m_foamWaveOffset": 6.280000210,
+		"m_foamWaveScale": 4.401999950,
+		"m_foamWaveIntensity": 0.823000014,
+		"m_foamWaveSpeed": 2.257999897,
+		"m_foamDistortScale": 0.550000012,
+		"m_foamDistortIntensity": 0.185000002,
+		"m_foamDistortSpeed": 0.722000003,
+		"m_foamDistort2Intensity": 2.506999969,
+		"m_foamFadePow": 4.000000000,
+		"m_foamRampBias": 1.000000000,
+		"m_foamRampSmoothing": 0.063000001
+	},
+	"Fountain": 
+	{
+		"Color": 
+		{
+			"x": 0.989323854,
+			"y": 0.418966264,
+			"z": 0.930461645
+		},
+		"Color Reflection": 
+		{
+			"x": 1.000000000,
+			"y": 0.672597885,
+			"z": 0.877224803
+		},
+		"Spec Intensity": 3.953000069,
+		"Spec Power": 60.555999756,
+		"R0": 0.063000001,
+		"Wave 0 Scale": 1.743999958,
+		"Wave 0 Intensity": -1.376000047,
+		"Wave 1 Scale": 5.000000000,
+		"Wave 1 Intensity": 4.883999825,
+		"Wave 2 Scale": 5.000000000,
+		"Wave 2 Intensity": -1.256000042,
+		"Wave Speed": 0.558000028,
+		"River Wave 0 Scale": 0.090999998,
+		"River Wave 0 Intensity": 0.690999985,
+		"River Wave 0 Speed": 0.388000011,
+		"River Wave 1 Scale": 0.699999988,
+		"River Wave 1 Intensity": 1.000000000,
+		"m_foamColor": 
+		{
+			"r": 1.000000000,
+			"g": 0.782918155,
+			"b": 0.958651662,
+			"a": 1.000000000
+		},
+		"m_foamBaseMul": 2.000000000,
+		"m_foamWaveOffset": 3.911000013,
+		"m_foamWaveScale": 10.038000107,
+		"m_foamWaveIntensity": 0.412999988,
+		"m_foamWaveSpeed": 0.100000001,
+		"m_foamDistortScale": 2.000000000,
+		"m_foamDistortSpeed": 0.056000002,
+		"m_foamDistort2Intensity": 1.125000000,
+		"m_foamFadePow": 1.069000006,
+		"m_foamRampBias": 0.884999990,
+		"m_foamRampSmoothing": 0.216999993
+	},
+	"Icon Camera Rot X": 45.000000000,
+	"Icon Camera Rot Z": -45.000000000,
+	"Icon Camera Fov": 10.000000000,
+	"Upgrade Marker Village": "sc3d\/signpost_construction_geo.glb",
+	"Upgrade Marker Valley": "sc3d\/signpost_construction_geo.glb",
+	"Valley Cull Bucket Offset": 
+	{
+		"y": -0.866999984
+	},
+	"FTUE Clouds": 
+	{
+		"Scale": 9.112000465,
+		"Offset": 
+		{
+			"z": 35.000000000
+		}
+	},
+	"Intro Camera Zoom Curve": 
+	{
+		"keys": 
+		[
+			{
+				"t": 2,
+				"e": 0.400000006,
+				"bx": 
+				[
+					-0.373469710,
+					0.406666517,
+					0.966803193,
+					0.000000000
+				],
+				"by": 
+				[
+					0.324669719,
+					-0.801671505,
+					0.202001929,
+					0.649999976
+				]
+			},
+			{
+				"t": 2,
+				"s": 0.400000006,
+				"e": 1.000000000,
+				"bx": 
+				[
+					-0.016056299,
+					0.505058646,
+					0.510997593,
+					0.000000000
+				],
+				"by": 
+				[
+					0.264685214,
+					-0.143193841,
+					-0.496491373,
+					0.375000000
+				]
+			},
+			{
+				"s": 1.000000000,
+				"e": 1.000000000
+			}
+		]
+	},
+	"Intro Camera Pos Curve": 
+	{
+		"keys": 
+		[
+			{
+				"t": 2,
+				"e": 0.300000012,
+				"bx": 
+				[
+					1.143535614,
+					-1.985396862,
+					1.841861248,
+					0.000000000
+				],
+				"by": 
+				[
+					-0.036507845,
+					0.062900543,
+					-0.031491041,
+					1.100000024
+				]
+			},
+			{
+				"t": 2,
+				"s": 0.300000012,
+				"e": 1.000000000,
+				"bx": 
+				[
+					0.654420137,
+					-1.046315193,
+					1.391895056,
+					0.000000000
+				],
+				"by": 
+				[
+					2.163021564,
+					-3.219964981,
+					-0.037958384,
+					1.094901681
+				]
+			},
+			{
+				"s": 1.000000000,
+				"e": 1.000000000
+			}
+		]
+	},
+	"Intro Camera Tgt Pos Offset": 4.500000000
+}

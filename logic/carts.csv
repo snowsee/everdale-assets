@@ -1,0 +1,6 @@
+"Name","IconSWF","IconExportName","TID","InfoTID","SCW","CharacterGfx","CollisionShape","SpawnTo","ArriveSeconds","LeaveSeconds"
+"String","String","String","String","String","String","String","String","String","int","int"
+"VillageTraderCart","sc/ui.sc","icon_nation_cart","TID_VILLAGE_TRADER_CART","TID_VILLAGE_TRADER_CART_INFO",,"village_ox",,"CartPositionVillage",5,10
+"BoatCart","sc/ui.sc","icon_nation_cart","TID_BOAT_CART","TID_BOAT_CART_INFO",,"nation_ox",,"CartPositionNation",5,10
+"ConstructionCart","sc/ui.sc","icon_nation_cart","TID_CONSTRUCTION_CART","TID_CONSTRUCTION_CART_INFO",,"nation_ox",,"CartPositionConstruction",5,10
+"ChallengeCart","sc/ui.sc","icon_nation_cart","TID_CHALLENGE_CART","TID_CHALLENGE_CART_INFO",,"nation_ox",,"CartPositionChallenge",5,10

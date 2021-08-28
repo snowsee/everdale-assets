@@ -1,0 +1,3 @@
+"Name","SCW","Scale","IdleAnimation","Idle2Animation","WalkAnimation","RestAnimation","CarryBone"
+"String","String","int","String","String","String","String","String"
+"Basic","sc3d/donkey_geo.glb",115,"sc3d/donkey_anim_idle.glb","sc3d/donkey_anim_idle.glb","sc3d/donkey_anim_walk.glb","sc3d/donkey_anim_idle.glb","ResourceBone"
