@@ -58,8 +58,10 @@ out vec2 v_texCoordLightmap;
 		out vec4 v_shadowPosition1;
 		out vec4 v_shadowPosition2;
 		out vec4 v_shadowPosition3;
-		//out vec4 v_shadowPosition4;
-		//out vec4 v_shadowPosition5;
+		#ifdef QUALITY_CHARACTER
+			out vec4 v_shadowPosition4;
+			out vec4 v_shadowPosition5;
+		#endif
 	#endif
 #endif
 #ifdef STENCIL
@@ -177,8 +179,10 @@ void main(void)
 		v_shadowPosition1 = shadowPosition + smScale * vec4( -0.027215,  0.809542, 0, 0 );
 		v_shadowPosition2 = shadowPosition + smScale * vec4(  0.787919,  0.197890, 0, 0 );
 		v_shadowPosition3 = shadowPosition + smScale * vec4( -0.631026, -0.571681, 0, 0 );
-		//v_shadowPosition4 = shadowPosition + smScale * vec4( -0.823725,  0.275209, 0, 0 );
-		//v_shadowPosition5 = shadowPosition + smScale * vec4(  0.665517, -0.678829, 0, 0 );
+		#ifdef QUALITY_CHARACTER
+			v_shadowPosition4 = shadowPosition + smScale * vec4( -0.823725,  0.275209, 0, 0 );
+			v_shadowPosition5 = shadowPosition + smScale * vec4(  0.665517, -0.678829, 0, 0 );
+		#endif
 	#else
 		v_shadowPosition0 = u_shadowProjectionView * pos;
 	#endif

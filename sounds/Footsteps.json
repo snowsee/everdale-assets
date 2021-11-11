@@ -1,0 +1,41 @@
+{
+	"FalloffEnd": 10,
+	"FalloffStart": 10,
+	"Filenames": [
+		"sfx/footstep_01.ogg",
+		"sfx/footstep_02.ogg"
+	],
+	"MaxPitch": [
+		110,
+		110
+	],
+	"MaxRepeatMs": 30,
+	"MaxVolume": [
+		0,
+		0
+	],
+	"MaximumByType": [
+		10,
+		10
+	],
+	"MinPitch": [
+		90,
+		90
+	],
+	"MinVolume": [
+		0,
+		0
+	],
+	"Priority": [
+		0,
+		0
+	],
+	"StartDelayMaxMs": [
+		0,
+		0
+	],
+	"StartDelayMinMs": [
+		0,
+		0
+	]
+}

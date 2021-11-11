@@ -1,9 +1,0 @@
-#Fri, 03 Sep 2021 15:32:17 +0300
-#build version number file
-
-version=8
-
-#do not edit this otherwise than change this to 0 when you update version or revision number
-build=126
-
-content_revision=2

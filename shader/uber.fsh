@@ -25,8 +25,10 @@ in vec2 v_texCoordLightmap;
 		in vec4 v_shadowPosition1;
 		in vec4 v_shadowPosition2;
 		in vec4 v_shadowPosition3;
-		//in vec4 v_shadowPosition4;
-		//in vec4 v_shadowPosition5;
+		#ifdef QUALITY_CHARACTER
+			in vec4 v_shadowPosition4;
+			in vec4 v_shadowPosition5;
+		#endif
 	#endif
 #endif
 #ifdef STENCIL
@@ -278,9 +280,44 @@ void main (void)
 	shadowSample +=      texture(shadowmap, v_shadowPosition1.xyz);
 	shadowSample +=      texture(shadowmap, v_shadowPosition2.xyz);
 	shadowSample +=      texture(shadowmap, v_shadowPosition3.xyz);
-	//shadowSample +=      texture(shadowmap, v_shadowPosition4.xyz);
-	//shadowSample +=      texture(shadowmap, v_shadowPosition5.xyz);
-	shadowSample *= 1.0/4.0;
+	#ifdef QUALITY_CHARACTER
+		shadowSample +=      texture(shadowmap, v_shadowPosition4.xyz);
+		shadowSample +=      texture(shadowmap, v_shadowPosition5.xyz);
+	#endif
+	
+	// Quick n' dirty adding samples for nicer photo shadows
+	#ifdef QUALITY_PHOTOMODE
+		float w = 2.0f / 1024.0f;
+		shadowSample +=      texture(shadowmap, v_shadowPosition0.xyz + vec3(1,0,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition1.xyz + vec3(1,0,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition2.xyz + vec3(1,0,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition3.xyz + vec3(1,0,0) * w );
+		#ifdef QUALITY_CHARACTER
+			shadowSample +=      texture(shadowmap, v_shadowPosition4.xyz + vec3(1,0,0) * w );
+			shadowSample +=      texture(shadowmap, v_shadowPosition5.xyz + vec3(1,0,0) * w );
+		#endif
+
+		shadowSample +=      texture(shadowmap, v_shadowPosition0.xyz + vec3(0,1,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition1.xyz + vec3(0,1,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition2.xyz + vec3(0,1,0) * w );
+		shadowSample +=      texture(shadowmap, v_shadowPosition3.xyz + vec3(0,1,0) * w );
+		#ifdef QUALITY_CHARACTER
+			shadowSample +=      texture(shadowmap, v_shadowPosition4.xyz + vec3(0,1,0) * w );
+			shadowSample +=      texture(shadowmap, v_shadowPosition5.xyz + vec3(0,1,0) * w );
+			shadowSample *= 1.0/18.0;
+		#else
+			shadowSample *= 1.0/12.0;
+		#endif
+	#else
+		#ifdef QUALITY_CHARACTER
+			shadowSample *= 1.0/6.0;
+		#else
+			shadowSample *= 1.0/4.0;
+		#endif
+	#endif
+
+
+
 	shadowSample = (sigmoid2( (shadowSample - 0.5) * 2.0, -u_shadowPcfEdgeSharpness ) + 1.0) * 0.5;
 	#endif
 

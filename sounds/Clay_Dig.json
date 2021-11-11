@@ -1,0 +1,32 @@
+{
+	"FalloffEnd": 10,
+	"FalloffStart": 10,
+	"Filenames": [
+		"sfx/clay_dig_01.wav"
+	],
+	"MaxPitch": [
+		105
+	],
+	"MaxRepeatMs": 200,
+	"MaxVolume": [
+		20
+	],
+	"MaximumByType": [
+		5
+	],
+	"MinPitch": [
+		95
+	],
+	"MinVolume": [
+		10
+	],
+	"Priority": [
+		2
+	],
+	"StartDelayMaxMs": [
+		0
+	],
+	"StartDelayMinMs": [
+		0
+	]
+}

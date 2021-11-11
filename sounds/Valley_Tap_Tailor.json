@@ -1,0 +1,30 @@
+{
+	"Filenames": [
+		"sfx/nation_valley_tap_tailor_01.wav"
+	],
+	"MaxPitch": [
+		100
+	],
+	"MaxRepeatMs": 300,
+	"MaxVolume": [
+		25
+	],
+	"MaximumByType": [
+		5
+	],
+	"MinPitch": [
+		100
+	],
+	"MinVolume": [
+		25
+	],
+	"Priority": [
+		2
+	],
+	"StartDelayMaxMs": [
+		0
+	],
+	"StartDelayMinMs": [
+		0
+	]
+}

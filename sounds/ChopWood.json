@@ -1,0 +1,31 @@
+{
+	"FalloffEnd": 10,
+	"FalloffStart": 10,
+	"Filenames": [
+		"sfx/chop_wood_01.wav"
+	],
+	"MaxPitch": [
+		100
+	],
+	"MaxVolume": [
+		30
+	],
+	"MaximumByType": [
+		0
+	],
+	"MinPitch": [
+		90
+	],
+	"MinVolume": [
+		30
+	],
+	"Priority": [
+		0
+	],
+	"StartDelayMaxMs": [
+		0
+	],
+	"StartDelayMinMs": [
+		0
+	]
+}

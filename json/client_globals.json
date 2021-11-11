@@ -12,10 +12,10 @@
 		"Light Bias2": 0.500000000,
 		"Light Angle": 41.087001801,
 		"Light Yaw": 18.586999893,
-		"Shadow Smoothing": 1.417999983,
-		"Shadow Edge Sharpness": 2.168999910,
-		"Shadow Poly Offset Factor": 2.000000000,
-		"Shadow Poly Offset Units": 75.026000977,
+		"Shadow Smoothing": 1.500000000,
+		"Shadow Edge Sharpness": 2.500000000,
+		"Shadow Poly Offset Factor": 7.500000000,
+		"Shadow Poly Offset Units": 50.000000000,
 		"Shadow Map Size": 1024,
 		"Color Gamma": 
 		{
@@ -310,6 +310,20 @@
 				"y": 0.142156839,
 				"z": 0.009059012
 			}
+		},
+		{
+			"Colorize": 
+			{
+				"x": 0.960854113,
+				"y": 0.571041405,
+				"z": 0.945594728
+			},
+			"Emission": 
+			{
+				"x": 0.266903937,
+				"y": 0.128227860,
+				"z": 0.187448978
+			}
 		}
 	],
 	"Unreachable Area Shading": 
@@ -331,15 +345,13 @@
 	{
 		"Color": 
 		{
-			"x": 0.010296212,
-			"y": 0.587519705,
-			"z": 0.964412808
+			"y": 0.821367681,
+			"z": 0.953736663
 		},
 		"Color Reflection": 
 		{
-			"x": 0.192246810,
-			"y": 0.450937301,
-			"z": 0.818505347
+			"y": 0.654838920,
+			"z": 0.978647709
 		},
 		"Spec Intensity": 62.700000763,
 		"Spec Power": 708.994995117,
@@ -376,7 +388,7 @@
 	{
 		"Color": 
 		{
-			"y": 0.519573212,
+			"y": 0.797153234,
 			"z": 1.000000000
 		},
 		"Color Reflection": 
@@ -580,5 +592,10 @@
 			}
 		]
 	},
-	"Intro Camera Tgt Pos Offset": 4.500000000
+	"Intro Camera Tgt Pos Offset": 4.500000000,
+	"Photo Mode Camera Rotate Pitch Min": -30.000000000,
+	"Photo Mode Camera Rotate Pitch Max": 45.000000000,
+	"Photo Mode Camera Rotate Yaw Range": 25.000000000,
+	"Photo Mode Camera Rotate Easing Range": 10.000000000,
+	"Photo Mode Max Zoom Factor": 3.000000000
 }
