@@ -16,10 +16,10 @@ Note that this repository does _not_ contain the 3d files because of their massi
 
 Some additional notes:
 
--   The `.osm` files use dynamic `LZMA` compression and can be unpacked using [`everdale.bms`][evbms]. **As of update v9.160, they are no longer present.**
--   The `_tex.sc` files use `LZMA` compression and can be decompressed using [`sc_extract`][sce]. **As of update v9.160, the game uses version 4 `_tex.sc` files and they can be decompressed using only the master branch version of [`sc_extract`][sce].**
--   The `.sc` files either use `LZMA` or `LZHAM` compression and can be decompressed using [`clash_royale.bms`][crbms].
--   ~~The `.csv` files are not compressed.~~ **The `.csv` files are compressed as of update v9.160. They use `LZMA` compression and can be decompressed using [`sc_extract`][sce].**
+- The `.osm` files use dynamic `LZMA` compression and can be unpacked using [`everdale.bms`][evbms]. **As of update v9.160, they are no longer present.**
+- The `_tex.sc` files use `LZMA` compression and can be decompressed using [`sc_extract`][sce]. **As of update v9.160, the game uses version 4 `_tex.sc` files and they can be decompressed using only the master branch version of [`sc_extract`][sce].**
+- The `.sc` files either use `LZMA` or `LZHAM` compression and can be decompressed using [`clash_royale.bms`][crbms].
+- ~~The `.csv` files are not compressed.~~ **The `.csv` files are compressed as of update v9.160. They use `LZMA` compression and can be decompressed using [`sc_extract`][sce].**
 
 ## License and Disclaimer
 
